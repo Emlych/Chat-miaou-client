@@ -6,10 +6,10 @@ Client side of a simple Chat API created with React, connected to a [backend](ht
 
 ## Features
 
-✔️ Authentication system by username and password
-✔️ Once authenticated (token cookies system), get access to conversation channels
-✔️ Create a new conversation channel (chatroom) and enter it
-✔️ Display all existing chatrooms
+✔️ Authentication system by username and password<br>
+✔️ Once authenticated (token cookies system), get access to conversation channels<br>
+✔️ Create a new conversation channel (chatroom) and enter it<br>
+✔️ Display all existing chatrooms<br>
 ✔️ Send messages
 
 ## Packages
