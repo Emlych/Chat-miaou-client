@@ -1,6 +1,7 @@
 # Chat API - client side - (=•́ܫ•̀=)
 
-https://img.shields.io/badge/last%20updated-march%202022-yellow
+[<img src="https://img.shields.io/badge/last%20updated-march%202022-yellow">](https://img.shields.io/badge/last%20updated-march%202022-yellow)
+
 Client side of a simple Chat API created with React, connected to a [backend](https://github.com/Emlych/Chat-miaou-back) developed using data and routes.
 
 ## Features
