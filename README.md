@@ -1,13 +1,15 @@
 # Chat API - client side - (=•́ܫ•̀=)
 
 https://img.shields.io/badge/last%20updated-march%202022-yellow
-This is the client side of a simple Chat API created with React.
-The backend can be found [here](https://github.com/Emlych/Chat-miaou-back)
+Client side of a simple Chat API created with React, connected to a [backend](https://github.com/Emlych/Chat-miaou-back) developed using data and routes.
 
 ## Features
 
-- User and authentication (with token cookies)
-- Conversation channels (create and enter chatrooms, display all chatrooms, send messages)
+✔️ Authentication system by username and password
+✔️ Once authenticated (token cookies system), get access to conversation channels
+✔️ Create a new conversation channel (chatroom) and enter it
+✔️ Display all existing chatrooms
+✔️ Send messages
 
 ## Packages
 
@@ -33,11 +35,16 @@ The backend can be found [here](https://github.com/Emlych/Chat-miaou-back)
 
 ## How to install and run the project
 
-In the project directory, you can run:
+Clone this repository :
+
+### `git clone https://github.com/Emlych/Chat-miaou-client`
+
+### `cd Chat-miaou-client`
+
+Install dependencies :
+
+### `npm install axios js-cookie react-router-dom @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core `
+
+When installation is complet, run :
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm run build`
