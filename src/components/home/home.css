@@ -1,0 +1,60 @@
+h1 {
+  padding-top: 2%;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+h1 span {
+  color: var(--primary);
+  font-size: 4.5rem;
+}
+.home {
+  background-image: url("../../assets/undraw_online_discussion_re_nn7e\(1\).svg");
+  background-size: contain;
+  background-position: right top;
+  height: 80vh;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.home__left,
+.home__right {
+  flex: 1;
+}
+.home__left {
+  display: flex;
+  flex-direction: column;
+}
+.home__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.home--description p {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 15px 10px;
+  margin-bottom: 30px;
+}
+.home button {
+  padding: 15px 10px;
+  background-color: var(--complement);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.home button:hover {
+  cursor: pointer;
+}
+.home button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.home__right > nav > ul {
+  text-align: right;
+  font-weight: 700;
+}
+.home__right > nav > ul > li:hover {
+  color: var(--complement);
+  cursor: pointer;
+}

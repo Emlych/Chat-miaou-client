@@ -1,0 +1,74 @@
+.chatbox {
+  display: flex;
+  justify-content: center;
+}
+.chat-nav {
+  flex: 1;
+  background-color: var(--secondary);
+  padding: 20px 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.chat-room {
+  flex: 3;
+  background-color: #efefef;
+  padding: 20px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Input left side nav */
+.chat-nav form {
+  display: flex;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 5px;
+}
+.chat-nav button {
+  background: none;
+  border: none;
+}
+.chat-nav .icon {
+  font-size: 24px;
+  color: var(--complement);
+}
+.chat-nav form input {
+  width: 100%;
+  border: none;
+  margin: 0 5px;
+  padding: 2px 5px;
+  color: var(--primary);
+}
+.chat-nav form input::placeholder {
+  color: var(--secondary);
+}
+.chat-nav form .lock {
+  color: var(--primary);
+}
+
+/* If chatbox disabled */
+.no-chatbox button {
+  margin-top: 30px;
+  padding: 15px 10px;
+  background-color: var(--complement);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Left side nav : display room names */
+.chat-names {
+  margin-top: 15px;
+}
+.chat-names button {
+  color: white;
+  margin: 8px 0;
+  font-size: 16px;
+}
+.chat-names button:hover {
+  cursor: pointer;
+  color: var(--complement);
+}
